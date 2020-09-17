@@ -68,6 +68,7 @@
         </div>
       </header>
       <main class="mdl-layout__content">
+        <div class="page-content">
           <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
             <div class="mdl-tabs__tab-bar" >
               <a href="#about-panel" class="mdl-tabs__tab is-active">Company</a>
@@ -121,6 +122,8 @@
                         </tbody>
                       </table>
 
+
+
                     </div>
                   </div>
                 </div>
@@ -163,11 +166,11 @@
                         Download Link
                       </a>
                     </div>
-                    <div class="mdl-card__menu">
+                    <!-- <div class="mdl-card__menu">
                       <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
                         <i class="material-icons">share</i>
                       </button>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
                 <div class="mdl-cell mdl-cell--4-col">
@@ -205,7 +208,7 @@
             <!-- <div class="mdl-tabs__panel" id="service-panel">
               
             </div> -->
-
+          </div>
         </div>
       </main>
 
@@ -219,22 +222,20 @@
 
         </div>
       </footer>
+
+      <dialog class="mdl-dialog w420 mdl-js-layout">
+        <h4 class="mdl-dialog__title">온브릭 유한책임회사 설립</h4>
+        <div class="mdl-dialog__content">
+          <p>2020년 9월 17일 법인 설립 등기 신청</p>
+          <p>2020년 9월 18일 홈페이지 준비중</p>
+        </div>
+        <div class="mdl-dialog__actions">
+          <!-- <button type="button" class="mdl-button">OK</button> -->
+          <button type="button" class="mdl-button close">Close</button>
+        </div>
+      </dialog>
     </div>
     
-    
-    <dialog class="mdl-dialog w420">
-      <h4 class="mdl-dialog__title">온브릭 유한책임회사 설립</h4>
-      <div class="mdl-dialog__content">
-        <p>2020년 9월 17일 법인 설립 등기 신청</p>
-        <p>2020년 9월 18일 홈페이지 준비중</p>
-      </div>
-      <div class="mdl-dialog__actions">
-        <!-- <button type="button" class="mdl-button">OK</button> -->
-        <button type="button" class="mdl-button close">Close</button>
-      </div>
-    </dialog>
-    
-
     <script>
       var dialog = document.querySelector('dialog');
       var showDialogButton = document.querySelector('#tdTitle1');
