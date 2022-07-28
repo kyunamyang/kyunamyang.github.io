@@ -1,0 +1,483 @@
+<html >
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="effciency app" />
+  <meta name="keywords" content="sourcecode dictionary,resource factory,unittest factory,unittest,scaffolding,xunit,nunit,mstest,sourcecode factory,forward engineering,entity factory,entity,automation,DTO,generate class,effciency,bookmark app,bookmark manager,csv,assembly,chrome,edge,whale,uwp,meetingminutes,회의록,meeting minutes,meetingnote,meeting note,storedprocedurefactory,storedprocedure factory,storedprocedure app" />
+  <meta property="og:title" content="OnBrick" />
+  <meta property="og:url" content="onbrick.co.kr" />
+  <meta property="og:description" content="sourcecode dictionary,resource factory,unittest factory,unittest,scaffolding,xunit,nunit,mstest,sourcecode factory,forward engineering,entity factory,entity,automation,DTO,generate class,effciency,bookmark app,bookmark manager,csv,assembly,chrome,edge,whale,uwp,meetingminutes,회의록,meeting minutes,meetingnote,meeting note,storedprocedurefactory,storedprocedure factory,storedprocedure app" />
+
+  <title>OnBrick</title>
+    <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-blue.min.css">
+      <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+      <style>
+        .p100 {
+          width: 100%;
+        }
+        .w300 {
+          width: 300px;
+        }
+        .w400 {
+          width: 400px;
+        }
+        .w420 {
+          width: 420px;
+        }
+        .clickable {
+          cursor: pointer; 
+        }
+        .demo-card-wide.mdl-card {
+          /* width: 512px; */
+          width: 100%;
+        }
+        .demo-card-wide > .mdl-card__title {
+          color: #fff;
+          background:
+            /* url('../assets/demos/dog.png') */ bottom right 15% no-repeat #E47E1C; /* 46B6AC */
+        }
+        .demo-card-wide > .mdl-card__menu {
+          color: #fff;
+        }
+        .demo-card-square.mdl-card {
+          /* width: 320px;
+          height: 320px; */
+          width: 100%;
+        }
+        .demo-card-square > .mdl-card__title {
+          color: #fff;
+          background:
+            /* url('../assets/demos/dog.png') */ bottom right 15% no-repeat #BD1137; /* 46B6AC */
+        }
+        .demo-card-square > .mdl-card__title2 {
+          color: #fff;
+          background:
+            /* url('../assets/demos/dog.png') */ bottom right 15% no-repeat #BD1137; /* E47E1C */
+        }
+        </style>
+  </head>
+
+  <body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout-icon"></div>
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout__title">OnBrick</span>
+          <div class="mdl-layout-spacer"></div>
+          <nav class="mdl-navigation">
+            <!-- <a class="mdl-navigation__link" href="#">Hello</a>
+            <a class="mdl-navigation__link" href="#">World.</a> -->
+          </nav>
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+            <div class="mdl-tabs__tab-bar" >
+              <a href="#company-panel" class="mdl-tabs__tab is-active">Company</a>
+              <a href="#product-panel" class="mdl-tabs__tab">Apps</a>
+              <!-- <a href="#service-panel" class="mdl-tabs__tab">Service</a> -->
+            </div>
+
+            <div class="mdl-tabs__panel is-active" id="company-panel">
+              <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--6-col">
+                  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">Intro</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <p>온브릭 유한책임회사 ( OnBrick LLC)</p>
+                      <p>서울특별시 영등포구 당산로 241 유니언타운당산 201호</p>
+                      <p>대표업무집행자 <a href="mailto:knyang@onbrick.co.kr">양규남</a></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell mdl-cell--6-col">
+                  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">Timeline</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp p100">
+                        <thead>
+                          <tr>
+                            <th class="mdl-data-table__cell--non-numeric">제목</th>
+                            <th class="mdl-data-table__cell--non-numeric">공고일</th>
+                            <!-- <th class="mdl-data-table__cell--non-numeric">공고기간</th> -->
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="mdl-data-table__cell--non-numeric"><a href="https://www.microsoft.com/store/apps/9NZJ054RCF15" target="_blank">SourceCode Dictionary</a> 앱 런칭</td>
+                            <td class="mdl-data-table__cell--non-numeric">2022-07-27</td>
+                            <!-- <td class="mdl-data-table__cell--non-numeric">-</td> -->
+                          </tr>
+                          <tr>
+                            <td class="mdl-data-table__cell--non-numeric"><a href="https://www.microsoft.com/store/apps/9NJDX2MMT05S" target="_blank">Resource Factory</a> 앱 런칭</td>
+                            <td class="mdl-data-table__cell--non-numeric">2022-07-25</td>
+                            <!-- <td class="mdl-data-table__cell--non-numeric">-</td> -->
+                          </tr>
+                          <tr>
+                            <td class="mdl-data-table__cell--non-numeric"><a href="https://www.microsoft.com/store/apps/9MZBDZKKB183" target="_blank">UnitTest Factory</a> 앱 런칭</td>
+                            <td class="mdl-data-table__cell--non-numeric">2022-07-13</td>
+                            <!-- <td class="mdl-data-table__cell--non-numeric">-</td> -->
+                          </tr>
+                          <tr>
+                            <td class="mdl-data-table__cell--non-numeric"><a href="https://www.microsoft.com/store/apps/9P7F7L9B965F" target="_blank">SourceCode Factory</a> 앱 런칭</td>
+                            <td class="mdl-data-table__cell--non-numeric">2022-07-05</td>
+                            <!-- <td class="mdl-data-table__cell--non-numeric">-</td> -->
+                          </tr>
+                          <tr>
+                            <td class="mdl-data-table__cell--non-numeric"><a href="https://www.microsoft.com/store/apps/9P7SR72PV6P9" target="_blank">Entity Factory</a> 앱 런칭</td>
+                            <td class="mdl-data-table__cell--non-numeric">2022-05-18</td>
+                            <!-- <td class="mdl-data-table__cell--non-numeric">-</td> -->
+                          </tr>
+                          <tr>
+                            <td class="mdl-data-table__cell--non-numeric"><a href="https://www.microsoft.com/store/apps/9PPGF94VHLKJ" target="_blank">StoredProcedure Factory</a> 앱 런칭</td>
+                            <td class="mdl-data-table__cell--non-numeric">2022-02-05</td>
+                            <!-- <td class="mdl-data-table__cell--non-numeric">-</td> -->
+                          </tr>
+                          <tr>
+                            <td class="mdl-data-table__cell--non-numeric"><a href="https://www.microsoft.com/store/apps/9NJD48KCN7RT" target="_blank">Meeting Minutes</a> 앱 런칭</td>
+                            <td class="mdl-data-table__cell--non-numeric">2022-01-30</td>
+                            <!-- <td class="mdl-data-table__cell--non-numeric">-</td> -->
+                          </tr>
+                          <tr>
+                            <td class="mdl-data-table__cell--non-numeric">One Bookmark 앱 런칭</td>
+                            <td class="mdl-data-table__cell--non-numeric">2021-01-14</td>
+                            <!-- <td class="mdl-data-table__cell--non-numeric">-</td> -->
+                          </tr>
+                          <tr>
+                            <td class="mdl-data-table__cell--non-numeric">통신 판매업 신고</td>
+                            <td class="mdl-data-table__cell--non-numeric">2021-01-13</td>
+                            <!-- <td class="mdl-data-table__cell--non-numeric">-</td> -->
+                          </tr>
+                          <tr>
+                            <td class="mdl-data-table__cell--non-numeric"><a href="https://www.microsoft.com/store/apps/9NHKBV6FZDW8" target="_blank">Assembly Information</a> 앱 런칭</td>
+                            <td class="mdl-data-table__cell--non-numeric">2021-01-12</td>
+                            <!-- <td class="mdl-data-table__cell--non-numeric">-</td> -->
+                          </tr>
+                          <tr>
+                            <td class="mdl-data-table__cell--non-numeric"><a href="https://www.microsoft.com/store/apps/9N0114M19Z2N" target="_blank">Sheet Converter</a> 앱 런칭</td>
+                            <td class="mdl-data-table__cell--non-numeric">2021-01-12</td>
+                            <!-- <td class="mdl-data-table__cell--non-numeric">-</td> -->
+                          </tr>
+                          <tr>
+                            <td class="mdl-data-table__cell--non-numeric clickable" id="tdTitle1">온브릭 유한책임회사 설립</td>
+                            <td class="mdl-data-table__cell--non-numeric">2020-09-17</td>
+                            <!-- <td class="mdl-data-table__cell--non-numeric">2021-09-16</td> -->
+                          </tr>
+                          <!-- <tr>
+                            <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
+                            <td>10</td>
+                            <td>$2.35</td>
+                          </tr> -->
+                        </tbody>
+                      </table>
+
+                      <br>
+                      <dialog class="mdl-dialog w420 mdl-js-layout">
+                        <h4 class="mdl-dialog__title">온브릭 유한책임회사 설립</h4>
+                        <div class="mdl-dialog__content">
+                          <p>2020년 9월 17일 법인 설립 등기 신청</p>
+                          <!-- <p></p> -->
+                        </div>
+                        <div class="mdl-dialog__actions">
+                          <!-- <button type="button" class="mdl-button">OK</button> -->
+                          <button type="button" class="mdl-button close">Close</button>
+                        </div>
+                      </dialog>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          
+            <div class="mdl-tabs__panel" id="product-panel">
+              <div class="mdl-grid">
+
+                <div class="mdl-cell mdl-cell--12-col">
+                  <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">Intro</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <p>더 높은 효율을 발휘하도록 돕는 App 을 개발합니다.</p>
+                      <p>가벼운 유틸리티 앱부터, 업무에서 사용할 수 있는 앱까지, 온브릭의 앱은 <a href="https://apps.microsoft.com/store/search?publisher=OnBrick%20LLC" target="_blank">마이크로소프트 스토어</a>에 있습니다</p>
+                      <!-- <p>앱 또는 개발 <a href="mailto:knyang@onbrick.co.kr">문의</a></p> -->
+
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- <div class="mdl-cell mdl-cell--4-col">
+                  <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">One Bookmark</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <p>구글 크롬, 마이크로소프트 엣지, 네이버 웨일 브라우저의 북마크를 한눈에 비교하며 관리합니다.</p>
+                      <p>
+                        <ul>
+                          <li>같은 트리에서 드래그 앤 드롭을 지원합니다.</li>
+                          <li>다른 트리 사이에서 카피 앤 페이스트를 지원합니다.</li>
+                          <li>백업 폴더를 지정하여 변경전 북마크 파일을 저장합니다.</li>
+                        </ul>
+                      </p>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border mdl-typography--text-right">
+                      <a href='//www.microsoft.com/store/apps/9MT103R43KLH?cid=storebadge&ocid=badge'>
+                        <img src='https://developer.microsoft.com/store/badges/images/English_get_L.png' alt='Korean badge' style='width: 63px; height: 26px;'/>
+                      </a>
+                    </div>
+                  </div>
+                </div> -->
+
+                <div class="mdl-cell mdl-cell--4-col">
+                  <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">Assembly Information</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <p>닷넷 어셈블리의 주요 속성을 한눈에 표시합니다</p>
+                      <p>
+                        <ul>
+                          <li>폴더를 지정하여, 모든 어셈블리의 주요 속성을 목록으로 표시합니다.</li>
+                          <li>서비스 중인 dll 이 최적화 빌드인지 확인할 수 있습니다.</li>
+                        </ul>
+                      </p>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border mdl-typography--text-right">
+                      <a href='//www.microsoft.com/store/apps/9NHKBV6FZDW8?cid=storebadge&ocid=badge'>
+                        <img src='https://developer.microsoft.com/store/badges/images/English_get_L.png' alt='Korean badge' style='width: 63px; height: 26px;'/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="mdl-cell mdl-cell--4-col">
+                  <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">Sheet Converter</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <p>엑셀 파일과 CSV 파일 사이의 저장을 위한 작업을 단순화합니다</p>
+                      <ul>
+                        <li>엑셀 파일의 여러 시트를 각각 CSV 파일로 저장합니다.</li>
+                        <li>여러개의 CSV 파일을 각각의 시트로 매핑하여 하나의 엑셀 파일로 저장합니다.</li>
+                      </ul>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border mdl-typography--text-right">
+                      <a href='//www.microsoft.com/store/apps/9N0114M19Z2N?cid=storebadge&ocid=badge'>
+                        <img src='https://developer.microsoft.com/store/badges/images/English_get_L.png' alt='Korean badge' style='width: 63px; height: 26px;'/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell mdl-cell--4-col">
+                  <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">Meeting Minutes</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <p>회의록 정리를 위한 개인 환경을 제공합니다.</p>
+                      <ul>
+                        <li>연락처를 관리합니다.</li>
+                        <li>회의록을 관리합니다.</li>
+                        <li>회의와 관련된 참석자와 할 일을 관리합니다.</li>
+                        <!-- <li>할 일의 완료 여부를 저장합니다.</li> -->
+                      </ul>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border mdl-typography--text-right">
+                      <a href='//www.microsoft.com/store/apps/9NJD48KCN7RT?cid=storebadge&ocid=badge'>
+                        <img src='https://developer.microsoft.com/store/badges/images/English_get_L.png' alt='Korean badge' style='width: 63px; height: 26px;'/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell mdl-cell--4-col">
+                  <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">StoredProcedure Factory</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <p>SQL Server 의 Stored procedure 스크립트를 자동으로 생성합니다.</p>
+                      <ul>
+                        <li>SQL Server 로의 연결 문자열을 저장합니다.</li>
+                        <li>Stored procedure 이름 규칙을 지정합니다.</li>
+                        <li>SQL Server 의 Table 을 조회합니다.</li>
+                        <li>INSERT, SELECT, UPDATE 하는 stored procedure 스크립트를 만듭니다.</li>
+                      </ul>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border mdl-typography--text-right">
+                      <a href='//www.microsoft.com/store/apps/9PPGF94VHLKJ?cid=storebadge&ocid=badge'>
+                        <img src='https://developer.microsoft.com/store/badges/images/English_get_L.png' alt='Korean badge' style='width: 63px; height: 26px;'/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mdl-cell mdl-cell--4-col">
+                  <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">Entity Factory</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <p>SQL Server 의 데이터 테이블과 1:1 매핑되는 클래스 코드를 자동으로 생성합니다.</p>
+                      <ul>
+                        <li>SQL Server 로의 연결 문자열을 저장합니다.</li>
+                        <li>meta data 를 조회하여 테이블과 컬럼 정보를 조회합니다.</li>
+                        <li>조회된 정보를 이용하여 PONO 클래스 코드를 생성합니다.</li>
+                        <li>생성된 클래스 소스 코드를 파일로 저장합니다.</li>
+                      </ul>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border mdl-typography--text-right">
+                      <a href='//www.microsoft.com/store/apps/9P7SR72PV6P9?cid=storebadge&ocid=badge'>
+                        <img src='https://developer.microsoft.com/store/badges/images/English_get_L.png' alt='Korean badge' style='width: 63px; height: 26px;'/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="mdl-cell mdl-cell--4-col">
+                  <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">SourceCode Factory</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <p>엑셀 파일에 정리된 설계로, 소스코드 포워드 엔지니어링을 제공합니다.</p>
+                      <ul>
+                        <li>엑셀 템플릿 파일을 로컬에 저장합니다.</li>
+                        <li>편집한 템플릿 파일을 앱에 등록합니다.</li>
+                        <li>등록한 정보를 바탕으로 소스 코드를 미리보기합니다.</li>
+                        <li>대상 폴더를 지정하여 소스 코드 파일을 저장합니다.</li>
+                      </ul>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border mdl-typography--text-right">
+                      <a href='//www.microsoft.com/store/apps/9P7F7L9B965F?cid=storebadge&ocid=badge'>
+                        <img src='https://developer.microsoft.com/store/badges/images/English_get_L.png' alt='Korean badge' style='width: 63px; height: 26px;'/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="mdl-cell mdl-cell--4-col">
+                  <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">UnitTest Factory</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <p>소스코드를 분석하여 단위 테스트 코드(xUnit, NUnit, MSTest)를 스케폴딩합니다.</p>
+                      <ul>
+                        <li>C# 소스코드를 선택하여 클래스와 메서드를 분석합니다.</li>
+                        <li>사용자가 선택한 라이브러리를 기준으로 단위 테스트 코드를 생성합니다.</li>
+                        <li>대상 폴더를 지정하여 단위 테스트 코드를 저장합니다.</li>
+                      </ul>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border mdl-typography--text-right">
+                      <a href='//www.microsoft.com/store/apps/9MZBDZKKB183?cid=storebadge&ocid=badge'>
+                        <img src='https://developer.microsoft.com/store/badges/images/English_get_L.png' alt='Korean badge' style='width: 63px; height: 26px;'/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="mdl-cell mdl-cell--4-col">
+                  <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">Resource Factory</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <p>영어, 한국어, 중국어, 일본어를 한번에 편집하여 리소스 파일을 생성합니다.</p>
+                      <ul>
+                        <li>템플릿 파일을 저장합니다.</li>
+                        <li>편집한 템플릿 파일을 읽어와 목록으로 표시합니다.</li>
+                        <li>리소스 파일 타입(resw, resw)과 구조를 선택하여 로컬에 저장합니다.</li>
+                      </ul>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border mdl-typography--text-right">
+                      <a href='//www.microsoft.com/store/apps/9NJDX2MMT05S?cid=storebadge&ocid=badge'>
+                        <img src='https://developer.microsoft.com/store/badges/images/English_get_L.png' alt='Korean badge' style='width: 63px; height: 26px;'/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                
+                <div class="mdl-cell mdl-cell--4-col">
+                  <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title">
+                      <h2 class="mdl-card__title-text">SourceCode Dictionary</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                      <p>C# 소스 코드의 구성요소를 목록으로 표시합니다.</p>
+                      <ul>
+                        <li>C# 소스코드 파일을 분석합니다.</li>
+                        <li>class, interface, method, property, field 정보를 목록으로 표시합니다.</li>
+                        <li>엑셀 파일로 저장합니다.</li>
+                      </ul>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border mdl-typography--text-right">
+                      <a href='//www.microsoft.com/store/apps/9NZJ054RCF15?cid=storebadge&ocid=badge'>
+                        <img src='https://developer.microsoft.com/store/badges/images/English_get_L.png' alt='Korean badge' style='width: 63px; height: 26px;'/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <!-- <div class="mdl-tabs__panel" id="service-panel">
+              
+            </div> -->
+          </div>
+        </div>
+
+        
+      </main>
+
+      <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__left-section">
+          <div class="mdl-logo">Copyright© 2020 - 2022 OnBrick LLC. All rights reserved.</div>
+          <!-- <ul class="mdl-mini-footer__link-list">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Privacy & Terms</a></li>
+          </ul> -->
+
+        </div>
+      </footer>
+    </div>
+    
+    <script>
+      var dialog = document.querySelector('dialog');
+      var showDialogButton = document.querySelector('#tdTitle1');
+      if (! dialog.showModal) {
+        dialogPolyfill.registerDialog(dialog);
+      }
+      showDialogButton.addEventListener('click', function() {
+        dialog.showModal();
+      });
+      dialog.querySelector('.close').addEventListener('click', function() {
+        dialog.close();
+      });
+    </script>
+
+  </body>
+
+
+
+</html>
